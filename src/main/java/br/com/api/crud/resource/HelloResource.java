@@ -1,4 +1,4 @@
-package br.com.api.crud;
+package br.com.api.crud.resource;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -11,6 +11,6 @@ public class HelloResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        return "hello";
+        return "hello hhh";
     }
 }
